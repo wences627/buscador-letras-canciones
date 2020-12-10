@@ -4,6 +4,8 @@ const Cancion = ({letra}) => {
 
     if(letra.length === 0) return null;
 
+    console.log(letra);
+
     return (
         <Fragment>
             <h2>Letra Cancion</h2>
